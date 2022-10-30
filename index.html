@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- LINKING ANIMATION CSS FILE USING CDN 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    /> -->
+    <link rel="shortcut icon" href="assest/img/logo.png" type="image/x-icon" />
+    <!-- linking the fontawesome files -->
+    <link rel="stylesheet" href="assest/css/all.min.css" />
+    <!-- linking the normalaize css file -->
+    <link rel="stylesheet" href="assest/css/normalize.css" />
+    <!-- linking the main css file  -->
+    <link rel="stylesheet" href="assest/css/moderno.css" />
+    <title>Moderno</title>
+  </head>
+  <body>
+    <!-- start header section -->
+    <header>
+      <div class="container">
+        <nav>
+          <img src="assest/img/Logo-white.png" class="logo" />
+          <i class="fa-solid fa-bars menu-icon" id="menu-icon" onclick="toggle_menu ()"></i>
+          <div class="menu" id="menu">
+            <img src="assest/img/Logo-white.png" class="logo" />
+            <h1 class="menu-title">menu</h1>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#services">services</a></li>
+              <li><a href="#stories">stories</a></li>
+              <li><a href="#contact"">contact</a></li>
+            </ul>
+            <div class="social">
+              <img src="assest/img/facebook.png">
+              <img src="assest/img/twitter.png">
+            </div>
+          </div>
+        </nav>
+        <div class="hero">
+          <h1>MODERNO</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+            eu velit nulla.
+          </p>
+          <button class="btn" onclick="window.location.href='#services'">Get in touch</button>
+        </div>
+      </div>
+    </header>
+    <!-- end header section -->
+    <!-- start Services section -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="service">
+          <i class="fa-solid fa-pen"></i>
+          <h3>we are creative</h3>
+          <p>
+            Lorem ipsum dolor sit amet, dicta albucius ne. Nostro gubergren in
+            ius, ea nam vocent electram. An verear efficiantur usu
+          </p>
+        </div>
+        <div class="service">
+          <i class="fa-solid fa-server"></i>
+          <h3>we have skills</h3>
+          <p>
+            Nostro gubergren in ius, ea nam vocent electram. An verear
+            efficiantur.
+          </p>
+        </div>
+        <div class="service">
+          <i class="fa-solid fa-tags"></i>
+          <h3>we love to help</h3>
+          <p>
+            Lorem ipsum dolor sit amet, dicta. Nostro gubergren in ius, ea nam
+            vocent. An verear efficiantur usu
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- end Services section -->
+    <!-- start Stories section -->
+    <section class="stories" id="stories">
+      <div class="container">
+        <div class="sectino-title">
+          <h1>success stories</h1>
+          <p>We do awesome work,check some of success stories so far</p>
+        </div>
+        <div class="main-story">
+          <div class="image">
+            <img src="assest/img/img(1).jpg" />
+          </div>
+          <div class="description">
+            <i class="fa fa-square-xmark"></i>
+            <h3>lorem ipsum project</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+            <button class="btn">view project</button>
+          </div>
+        </div>
+        <div class="boxes">
+          <div class="box">
+            <i class="fa-solid fa-square-plus"></i>
+          </div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+        </div>
+      </div>
+    </section>
+    <!-- end Stories section -->
+    <!-- start contact us section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="sectino-title">
+          <h1>get in touch</h1>
+          <p>we are communicative and social</p>
+        </div>
+        <div class="image">
+          <div class="tag">we are here</div>
+        </div>
+        <div class="contact-details">
+          <div class="contact-form">
+            <form method="post">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Your Name"
+              />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Your mail"
+              />
+              <input
+                type="text"
+                name="subject"
+                id="subject"
+                placeholder="Subject"
+              />
+              <textarea
+                name="message"
+                id="message"
+                placeholder="type your message"
+              ></textarea>
+              <button type="submit" class="btn">Send</button>
+            </form>
+          </div>
+          <div class="contact-info">
+            <h1>our address</h1>
+            <p>4896 Desert Broom Court Newark, NJ 07102 United States</p>
+            <h1>email</h1>
+            <p>moderno.contact@moderno.com</p>
+
+            <h1>phone</h1>
+            <p>+1234567890</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end contact us section -->
+    <!-- start footer us section -->
+    <footer>
+      <div class="container">
+        <div class="copyright">
+          Copyright &copy; 2014 Moderno,All Rights Reserved
+        </div>
+        <div class="social">
+          <i class="fa-solid fa-magic"></i>
+          <i class="fa-solid fa-crown"></i>
+          <i class="fa-solid fa-camera"></i>
+          <i class="fa-solid fa-link"></i>
+          <i class="fa-solid fa-lock"></i>
+          <i class="fa-solid fa-folder"></i>
+        </div>
+      </div>
+    </footer>
+    <div class="go-top" onclick="go_top()">
+      <i class="fa-solid fa-arrow-up"></i>
+    </div>
+    <!-- end footer us section -->
+
+    <!-- javascript linking file -->
+    <script src="assest/js/script.js"></script>
+    <!-- javascript linking file -->
+  </body>
+</html>
